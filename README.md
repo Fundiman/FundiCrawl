@@ -65,6 +65,7 @@ To install and run **FundiCrawl**, follow these steps:
     ```
     example.com-2025-03-30-example-com.txt
     ```
+    Also there's examples of data scrapped using this tool in DEMO/
 
 6. The scraped data will include:
     - Title

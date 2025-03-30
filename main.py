@@ -1,7 +1,11 @@
-#!/usr/bin/bash
+#!/usr/bin/python3
 import requests
 from bs4 import BeautifulSoup
 import datetime
+
+user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 (FundiCrawl/1.0 +https://www.github.com/Fundiman/FundiCrawl)'
+
+print(f"FundiCrawl/1.0 User-Agent: {user_agent}")
 
 class FundiCrawl:
     def __init__(self, user_agent):
@@ -105,8 +109,6 @@ class FundiCrawl:
             f.write(f"Raw HTML:\n")
             f.write(data['raw_html'] + "\n")
         print(f"Data saved to {filename}")
-
-user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 (FundiCrawl/1.0 +https://www.github.com/Fundiman/FundiCrawl)'
 
 crawler = FundiCrawl(user_agent)
 
