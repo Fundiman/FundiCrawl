@@ -1,0 +1,223 @@
+
+Data for https://fundiman.hackclub.app/:
+Title: Introduction
+Meta Description: No description available
+Links:
+https://github.com/Fundiman
+mailto:abdullahbhatti0890@gmail.com
+mailto:abdullahbhatti0980@outlook.com
+Headings:
+h1: 
+h2: Hey, I'm Abdullah (aka Fundiman) 👋, Here's what I'm up to:, Why I Do This:, What’s Next?, Let’s Connect!
+h3: 
+h4: 
+h5: 
+h6: 
+Paragraphs:
+Welcome to my little corner of the internet! I'm a 10 year old (born in 2014), open-source enthusiast, and someone who's always messing around with tech just because it's fun. Whether it's building operating systems, tweaking software, or diving deep into the world of Linux and dual booting (because why settle for one OS when you can have a bunch?), I'm all about creating things that make the digital world a bit more interesting.
+Because, honestly, I enjoy it. I love the challenge and the feeling of creating something from scratch. But there's more to it—I'm always thinking ahead, trying to push things forward. Whether it’s a new tool, a cool OS feature, or just figuring out how to make my dual-boot setup a little smoother, I’m constantly on the lookout for the next project.
+I also believe in open-source—sharing knowledge and tools for free. It’s not about making money (though, who doesn’t love a little side hustle, right?), but about making cool stuff that everyone can benefit from.
+I’ve got a bunch of things in the pipeline, so buckle up! I’m working on Deskroid (an Android desktop project), expanding LinuzX (my Linux-on-Android app), and continuing my Hackintosh journey. There’s also my AI project, BeMaXile AI. Trust me, you don’t want to miss it.
+If you’re into the same stuff or just want to chat about tech, hit me up! I’m always down to geek out with fellow enthusiasts.
+Tables:
+Images:
+
+Scripts:
+
+Styles:
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: 'Winky Sans', sans-serif;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            --color: rgba(114, 114, 114, 0.7);
+            background-color: #191a1a;
+            background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
+                linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
+            background-size: 110px 110px;
+            background-repeat: repeat;
+            background-attachment: fixed;
+            animation: move-pattern 10s linear infinite;
+        }
+
+        @keyframes move-pattern {
+            0% {
+                background-position: 0 0;
+            }
+            100% {
+                background-position: 110px 110px;
+            }
+        }
+
+        h1 {
+            margin: 10px 0;
+            color: #fff;
+            font-family: 'Boldonse', sans-serif;
+        }
+
+        marquee {
+            display: block;
+            width: 100%;
+            text-align: center;
+            color: #fff;
+            font-family: 'Winky Sans', sans-serif;
+            font-size: 1.2em;
+            animation: slowScroll 150s linear infinite;
+            padding: 20px;
+        }
+
+        @keyframes slowScroll {
+            0% {
+                transform: translateY(100%);
+            }
+            100% {
+                transform: translateY(-100%);
+            }
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    
+Raw HTML:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: 'Winky Sans', sans-serif;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            --color: rgba(114, 114, 114, 0.7);
+            background-color: #191a1a;
+            background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
+                linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
+            background-size: 110px 110px;
+            background-repeat: repeat;
+            background-attachment: fixed;
+            animation: move-pattern 10s linear infinite;
+        }
+
+        @keyframes move-pattern {
+            0% {
+                background-position: 0 0;
+            }
+            100% {
+                background-position: 110px 110px;
+            }
+        }
+
+        h1 {
+            margin: 10px 0;
+            color: #fff;
+            font-family: 'Boldonse', sans-serif;
+        }
+
+        marquee {
+            display: block;
+            width: 100%;
+            text-align: center;
+            color: #fff;
+            font-family: 'Winky Sans', sans-serif;
+            font-size: 1.2em;
+            animation: slowScroll 150s linear infinite;
+            padding: 20px;
+        }
+
+        @keyframes slowScroll {
+            0% {
+                transform: translateY(100%);
+            }
+            100% {
+                transform: translateY(-100%);
+            }
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <marquee direction="up" scrollamount="0" height="100000px">
+            <div>
+                <h2>Hey, I'm Abdullah (aka Fundiman) 👋</h2>
+                <p>Welcome to my little corner of the internet! I'm a 10 year old (born in 2014), open-source enthusiast, and someone who's always messing around with tech just because it's fun. Whether it's building operating systems, tweaking software, or diving deep into the world of Linux and dual booting (because why settle for one OS when you can have a bunch?), I'm all about creating things that make the digital world a bit more interesting.</p>
+
+                <h2>Here's what I'm up to:</h2>
+                <ul>
+                    <li><strong>Creating Operating Systems:</strong> I'm working on <strong>NeuterOS</strong> which is a ai-integrated, cloud-synced, sleek and modern designed os.</li>
+                    <li><strong>Game Development:</strong> Yep, I create games too! My game <strong>Platformer85</strong> went viral (big flex, right?). I’ve got plans for <strong>Zephyros Rift</strong>, a racing game that’s coming soon. Stay tuned for more, because I'm just getting started with this!</li>
+                    <li><strong>Hackintosh Adventures:</strong> I’m hackintoshing macOS Ventura onto my laptop (no Mac, no problem). It's a challenging but fun project—I'm all about those DIY setups.</li>
+                    <li><strong>Building Tools for Devs:</strong> I built <strong>SnapReportX</strong> (a system reporting tool) and <strong>llamachat</strong> (a chat tool to chat with .gguf models) to make life easier for devs like me. Open-source, of course!</li>
+                </ul>
+
+                <h2>Why I Do This:</h2>
+                <p>Because, honestly, I enjoy it. I love the challenge and the feeling of creating something from scratch. But there's more to it—I'm always thinking ahead, trying to push things forward. Whether it’s a new tool, a cool OS feature, or just figuring out how to make my dual-boot setup a little smoother, I’m constantly on the lookout for the next project.</p>
+                <p>I also believe in open-source—sharing knowledge and tools for free. It’s not about making money (though, who doesn’t love a little side hustle, right?), but about making cool stuff that everyone can benefit from.</p>
+
+                <h2>What’s Next?</h2>
+                <p>I’ve got a bunch of things in the pipeline, so buckle up! I’m working on <strong>Deskroid</strong> (an Android desktop project), expanding <strong>LinuzX</strong> (my Linux-on-Android app), and continuing my Hackintosh journey. There’s also my AI project, <strong>BeMaXile AI</strong>. Trust me, you don’t want to miss it.</p>
+
+                <h2>Let’s Connect!</h2>
+                <p>If you’re into the same stuff or just want to chat about tech, hit me up! I’m always down to geek out with fellow enthusiasts.</p>
+                <ul>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/Fundiman" target="_blank">Fundiman</a></li>
+                    <li><strong>Discord:</strong> @fundiman</li>
+                    <li><strong>Email:</strong> <a href="mailto:abdullahbhatti0890@gmail.com">abdullahbhatti0890@gmail.com</a> / <a href="mailto:abdullahbhatti0980@outlook.com">abdullahbhatti0980@outlook.com</a></li>
+                </ul>
+            </div>
+        </marquee>
+    </div>
+</body>
+</html>
+
